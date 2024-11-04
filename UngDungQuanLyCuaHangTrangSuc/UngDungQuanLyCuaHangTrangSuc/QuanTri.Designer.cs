@@ -30,17 +30,17 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aDMINTRATIONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trangWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trangWebToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -67,16 +67,22 @@
             this.aDMINTRATIONToolStripMenuItem.Text = "ADMINISTRATOR";
             this.aDMINTRATIONToolStripMenuItem.Click += new System.EventHandler(this.aDMINTRATIONToolStripMenuItem_Click);
             // 
+            // đăngXuấtToolStripMenuItem
+            // 
+            this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(160, 26);
+            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
+            // 
             // trangWebToolStripMenuItem
             // 
             this.trangWebToolStripMenuItem.Name = "trangWebToolStripMenuItem";
-            this.trangWebToolStripMenuItem.Size = new System.Drawing.Size(94, 26);
+            this.trangWebToolStripMenuItem.Size = new System.Drawing.Size(94, 24);
             this.trangWebToolStripMenuItem.Text = "Trang Web";
             // 
             // trangWebToolStripMenuItem1
             // 
             this.trangWebToolStripMenuItem1.Name = "trangWebToolStripMenuItem1";
-            this.trangWebToolStripMenuItem1.Size = new System.Drawing.Size(70, 26);
+            this.trangWebToolStripMenuItem1.Size = new System.Drawing.Size(70, 24);
             this.trangWebToolStripMenuItem1.Text = "Liên hệ";
             // 
             // tableLayoutPanel1
@@ -99,24 +105,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(152, 249);
             this.tableLayoutPanel1.TabIndex = 2;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(31, 52);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "My PNJ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(158, 31);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(867, 623);
-            this.panel1.TabIndex = 3;
             // 
             // button1
             // 
@@ -162,12 +150,25 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "Quản lý nhân viên";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // đăngXuấtToolStripMenuItem
+            // label1
             // 
-            this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(31, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "My PNJ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(158, 31);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(867, 623);
+            this.panel1.TabIndex = 3;
             // 
             // QuanTri
             // 
