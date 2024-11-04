@@ -36,5 +36,11 @@ namespace UngDungQuanLyCuaHangTrangSuc
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            QuanLyNhanVien a = new QuanLyNhanVien();
+            label1.ControlAdded(a);
+        }
     }
 }
